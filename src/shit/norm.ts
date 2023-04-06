@@ -1,0 +1,1 @@
+export const Zolo: number = 5;

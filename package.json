@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "google-protobuf": "^3.21.2",
+    "ts-protoc-gen": "^0.15.0"
+  },
+  "scripts": {
+    "proto": "protoc --ts_out='./src/generated' --js_out='import_style=commonjs,binary:./src/generated' src/proto/addressBook.proto",
+    "test": "ts-node src/hello.ts"
+  }
+}
